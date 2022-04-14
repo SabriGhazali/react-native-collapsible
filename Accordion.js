@@ -43,7 +43,7 @@ export default class Accordion extends Component {
       }
 
       if (onChange) {
-        onChange(updatedSections);
+        onChange(updatedSections, section);
       }
     }
   }
