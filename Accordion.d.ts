@@ -51,7 +51,7 @@ export interface AccordionProps<T> {
   /**
    * A function that is called when the currently active section(s) are updated.
    */
-  onChange(indexes: number[]): void;
+  onChange(indexes: number[] , index:number): void;
 
   /**
    * Used to extract a unique key for a given item at the specified index. Key is used for caching
